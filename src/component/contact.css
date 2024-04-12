@@ -1,0 +1,262 @@
+#body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1f2235;
+  
+  }
+  #top-nav {
+    margin-top: 20px;
+    padding: 0 8%;
+  
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    animation-name: fadeIn 1s;
+  
+    background-color: #1f2235;
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    padding: 10px 0;
+   
+  }
+  #brand-name {
+    font-weight: 600;
+    color: #ff4a57;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 80px;
+    
+    
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s ease-out;
+    
+  }
+  
+  #searchBox {
+    background-color: transparent;
+      border: 1px solid #1f2235;
+      color: white;
+      
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #searchBox:hover{
+     border: 1px solid blue;      
+     
+    }
+  #searchBox::placeholder {
+    color: rgb(83, 103, 145);
+      font-weight: 500;
+  }
+  #searchBtn {
+      border: 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #searchBtn:hover {
+      border-color: blue;
+      background-color: transparent;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    #searchForm {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+   
+  }
+
+  #arrow{
+    color: #1f2235;
+    font-size: 40px;
+    background-color: #ff4a57;   
+    margin-bottom: 20px;
+   padding: 19px;
+    border: 1px solid black ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;  
+    position: fixed;
+    top: 80vh;
+    bottom: 0;
+    right: 0;
+    left: 94vw;
+    transition: all 1s ease-in-out;
+}
+/* Left side */
+#main{
+    margin-top: 5rem;
+}
+#main #welcome{
+    color: #ff4a57;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: start;
+}
+#main p{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: start;
+}
+
+#main iframe{
+    margin-left:60px
+}
+
+
+  /* myProject content */
+#myProject{
+    text-align: center;
+    margin-top: 15rem;
+    
+}
+  
+  #myProject h1{
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  #myProject span{
+    color: #ff4a57;
+   
+  }
+  #myProject p{
+    width: 120px;
+    height: 0px;
+    border: 2px solid red;
+       margin-left: 45%;
+  }
+
+  /* contact form */
+  #contactRow{
+    margin: 3rem 0px;
+    justify-content: center;
+   
+    
+  }
+  #contactRow #box{
+    margin: 0px auto;
+   
+  }
+  #contactRow #box input{
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    padding: 8px 15px;   
+    outline: none; 
+}
+ 
+#contactRow #message{
+    margin-right: 220px;
+    
+    
+}
+#contactRow #message textarea{
+    width: 131%;
+    height: 12rem;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+  }
+  #lastBtn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8rem;
+  }
+  #btn {
+    text-align: center;
+    background-color: #ff4a57;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: rgb(218, 27, 27) 0px 5px 15px;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+  }
+  #btn:hover {
+    background-color: white;
+    color: #ff4a57;
+   
+  }
+
+p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:1024px){
+  
+    #main iframe{
+        width: 500px;
+    }
+    #contactRow #box input{
+        background-color: transparent;
+        border: 0.5px solid white;
+        color: white;
+        padding: 8px 2px;   
+        outline: none; 
+       
+    }
+    #arrow{
+     
+        position: fixed;
+        top: 90vh;
+        bottom: 0;
+        right: 0;
+        left: 94vw;
+        
+    }
+     
+}
+
+@media only screen and (max-width:1024px){
+
+  
+    #main iframe{
+        margin: 0px;
+        width: 400px;
+        height: 300px;
+
+    }
+    #contactRow #box input{
+        
+        padding: 10px 2px;
+        margin: 10px 10px;   
+        outline: none; 
+       
+    }
+    
+    #contactRow #message textarea{
+        width: 850px;
+        height: 150px;
+    padding-left: 10px;
+    margin: 0px 40px;
+        
+      }
+    
+      
+  
+     
+}
+@media only screen and (max-width:500px){
+
+  #contactRow #message textarea{
+    width: 400px;
+    height: 150px;
+padding-left: 10px;
+margin: 0px 101px;
+}
+}
