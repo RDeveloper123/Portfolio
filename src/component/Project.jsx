@@ -51,7 +51,7 @@ function Project() {
 
             <Link
               target="_blank"
-              to="https://drive.google.com/file/d/1uzR93Ywthf095Q2ak_CLireswI5ystZj/view?usp=sharing"
+              to="https://drive.google.com/file/d/1lw8x_9dcmhVvFCWCcj3HsCdD9qxPl-uC/view?usp=sharing"
               download=""
             >
               <input type="button" value="Download CV" id="btn" />
@@ -88,7 +88,7 @@ function Project() {
 
             <Link
               target="_blank"
-              to="https://github.com/RDeveloper123/Tic-Tac-Toe-Game.git"
+              to="https://github.com/RDeveloper123/Tic-Tac-Toe-Game"
             >
               <input type="button" value="View Source" id="btnView" />
             </Link>
@@ -105,7 +105,7 @@ function Project() {
 
             <Link
               target="_blank"
-              to="https://github.com/RDeveloper123/E-Commerce.git"
+              to="https://github.com/RDeveloper123/E-Commerce"
             >
               <input type="button" value="View Source" id="btnView" />
             </Link>
@@ -121,7 +121,7 @@ function Project() {
               clean and responsive layout.
             </p>
 
-            <Link target="_blank" to="#">
+            <Link target="_blank" to="https://github.com/RDeveloper123/Portfolio">
               <input type="button" value="View Source" id="btnView" />
             </Link>
           </div>
@@ -143,7 +143,7 @@ function Project() {
 
             <Link
               target="_blank"
-              to="https://github.com/RDeveloper123/Calculater.git"
+              to="https://github.com/RDeveloper123/Calculater"
             >
               <input type="button" value="View Source" id="btnView" />
             </Link>
@@ -178,7 +178,7 @@ function Project() {
 
             <Link
               target="_blank"
-              to="https://github.com/RDeveloper123/Typing_Speed_Test.git"
+              to="https://github.com/RDeveloper123/Typing_Speed_Test"
             >
               <input type="button" value="View Source" id="btnView" />
             </Link>
