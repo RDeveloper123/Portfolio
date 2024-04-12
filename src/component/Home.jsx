@@ -45,7 +45,7 @@ function Home() {
 
             <Link
               target="_blank"
-              to="https://drive.google.com/file/d/1uzR93Ywthf095Q2ak_CLireswI5ystZj/view?usp=sharing"
+              to="https://drive.google.com/file/d/1rqZh2T6tMs9uHXzVNMsXA3-Tk7cMYNtC/view?usp=sharing"
               download=""
             >
               <input type="button" value="Download CV" id="btn" />
